@@ -1,9 +1,9 @@
-# Fact
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stylish Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,14 +15,22 @@
             <a href="#">Contact</a>
         </nav>
     </header>
+
     <main>
-        <section>
+        <section class="hero">
+            <h2>Hello! I’m MH H</h2>
+            <p>This is my awesome GitHub website.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+
+        <section class="about">
             <h2>About Me</h2>
-            <p>This is my first GitHub website!</p>
+            <p>I love coding, designing websites, and learning new tech skills every day!</p>
         </section>
     </main>
+
     <footer>
-        <p>© 2025 My Website</p>
+        <p>© 2025 MH H. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
