@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Aafano EduQuiz</h1>
+    </header>
+
+    <main>
+        <section class="quiz">
+            <h2>Question 1:</h2>
+            <p>What is the capital of India?</p>
+            <input type="radio" name="q1" value="a" id="q1a">
+            <label for="q1a">Mumbai</label><br>
+            <input type="radio" name="q1" value="b" id="q1b">
+            <label for="q1b">New Delhi</label><br>
+            <input type="radio" name="q1" value="c" id="q1c">
+            <label for="q1c">Kolkata</label><br>
+
+            <h2>Question 2:</h2>
+            <p>Which planet is known as the Red Planet?</p>
+            <input type="radio" name="q2" value="a" id="q2a">
+            <label for="q2a">Mars</label><br>
+            <input type="radio" name="q2" value="b" id="q2b">
+            <label for="q2b">Venus</label><br>
+            <input type="radio" name="q2" value="c" id="q2c">
+            <label for="q2c">Jupiter</label><br>
+
+            <button onclick="checkQuiz()">Submit</button>
+
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Aafano EduQuiz</p>
+    </footer>
+
+    <script>
+        function checkQuiz() {
+            let score = 0;
+            if(document.getElementById('q1b').checked) score++;
+            if(document.getElementById('q2a').checked) score++;
+            document.getElementById('result').innerText = "Your Score: " + score + "/2";
+        }
+    </script>
+</body>
+</html>
