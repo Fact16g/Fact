@@ -1,1 +1,28 @@
 # Fact
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>This is my first GitHub website!</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Website</p>
+    </footer>
+</body>
+</html>
